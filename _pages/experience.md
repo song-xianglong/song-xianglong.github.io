@@ -1,7 +1,8 @@
 ---
 layout: archive
 permalink: /experience/
-title: "Experience:"
+#title: "Experience:"
+title: false
 author_profile: true
 ---
 
