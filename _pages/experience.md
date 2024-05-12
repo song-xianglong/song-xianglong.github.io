@@ -5,6 +5,8 @@ title: "Experience:"
 author_profile: true
 ---
 
+
+
 # Previous Research Experience
 
 ## Solving the gap equation of the NJL model through iterations: unexpected chaos.
