@@ -1,6 +1,7 @@
 ---
 layout: archive
 permalink: /sport/
+title: "Sport:"
 author_profile: true
 ---
 

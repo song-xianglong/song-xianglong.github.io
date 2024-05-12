@@ -1,6 +1,7 @@
 ---
 layout: archive
 permalink: /cv/
+title: "Materials:"
 author_profile: true
 redirect_from:
   - /resume
