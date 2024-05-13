@@ -44,7 +44,7 @@ supervised by Prof. Letícia Cunqueiro
 Jan. 2024, Tsung-Dao Lee Institute, Shanghai Jiao Tong University  
 Shanghai, China  
 supervised by Prof. Gwenael Giacinti
-- The Crab Nebula is generally the brightest persistent γ-ray source in the sky, up to 100 TeV, even at a PeV energy scale.
+- The Crab Nebula is generally the brightest persistent $\gamma$-ray source in the sky, up to 100 TeV, even at a PeV energy scale.
 - We used Naima package to calculate LHAASO data and generated the photon spectrum we got from the Crab Nebula and analyzed the origin of these photons.
 
 ---
