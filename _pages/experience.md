@@ -7,7 +7,7 @@ author_profile: true
 
 
 
-# Previous Research Experience
+# <font color="#000080">Previous Research Experience</font>
 
 ## Solving the gap equation of the NJL model through iterations: unexpected chaos.
 May. 2022 - Jul. 2022, **Nankai University**  
@@ -50,7 +50,7 @@ supervised by Prof. **Gwenael Giacinti**
 ---
 ---
 
-# Ongoing and Upcoming Research
+# <font color="#000080">Ongoing and Upcoming Research</font>
 
 ## Calculation of Various Form Factors with a Novel Approach.
 **Nankai University**  
