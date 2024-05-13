@@ -27,9 +27,9 @@ supervised by Prof. Lei Chang
 Apr. 2023 - Apr. 2024, Nankai University  
 Tianjin, China  
 supervised by Prof. Lei Chang
-- We constructed a type of effective model that inversely deduces the π meson’s Bethe-Salpeter amplitude (BSA) from its distribution amplitude, and subsequently calculated the $\pi-\gamma$ transition form factor.
+- We constructed a type of effective model that inversely deduces the $\pi$ meson’s Bethe-Salpeter amplitude (BSA) from its distribution amplitude, and subsequently calculated the $\pi-\gamma$ transition form factor.
 - Solved the parton distribution amplitude (PDA) inversely with Mathematica (FeynCalc).
-- Publication: Pion to two photons transition form factor. (awaiting submission)
+- Publication: [Pion to two photons transition form factor.](../assets/Pion_to_two_photons_transition_form_factor.pdf) (awaiting submission)
 
 ## SoftDrop isolation on exploring QED splitting function.
 Jul. 2023 - Dec. 2023, Sapienza Università di Roma  
@@ -38,6 +38,7 @@ supervised by Prof. Letícia Cunqueiro
 - Used SoftDrop isolation to explore the QED splitting function in $q → q\gamma$ process.
 - Generated splittings with Pythia, wrote macros in C++ using FastJet and plotted with Root.
 - SoftDrop isolation did well in distinguishing photons from mesons’ decay and quarks.
+- Here is a [manuscript](../assets/A%20Fundemental%20Study%20on%20Photon%20Isolation.pdf).
 
 ## From multi-wavelength data to electron distribution.
 Jan. 2024, Tsung-Dao Lee Institute, Shanghai Jiao Tong University  
