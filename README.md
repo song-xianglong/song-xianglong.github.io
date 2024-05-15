@@ -1,1 +1,1 @@
-### Hi, this is Xianglong Song's personal website https://song-xianglong.github.io
+### Hi, this is Xianglong Song's homepage https://song-xianglong.github.io
