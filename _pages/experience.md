@@ -60,7 +60,7 @@ supervised by Prof. **Lei Chang**
 is supervised by Prof. Chang.
 
 ## ttH+tH CP analysis on ATLAS.
-**SLAC**  
+**SLAC, Stanford University**  
 California, USA  
 would be supervised by Prof. **Caterina Vernieri**
 - We will train a neural network to separate ttH+tH signal from background processes and to separate events produced by CP-even and CP-odd process simultaneously.
