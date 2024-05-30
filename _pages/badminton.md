@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /sport/
+permalink: /badminton/
 title: " "
 author_profile: true
 ---
