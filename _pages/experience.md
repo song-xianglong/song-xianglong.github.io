@@ -29,7 +29,7 @@ Tianjin, China
 supervised by Prof. **Lei Chang**
 - We constructed a type of effective model that inversely deduces the $\pi$ meson’s Bethe-Salpeter amplitude (BSA) from its distribution amplitude, and subsequently calculated the $\pi-\gamma$ transition form factor.
 - Solved the parton distribution amplitude (PDA) inversely with Mathematica (FeynCalc).
-- Publication: [Pion to two photons transition form factor.](../assets/Pion_to_two_photons_transition_form_factor.pdf) (awaiting submission)
+- Publication: Pion to two photons transition form factor. (awaiting submission)
 
 ## SoftDrop isolation on exploring QED splitting function.
 Jul. 2023 - Dec. 2023, **Sapienza Università di Roma**  
