@@ -59,8 +59,8 @@ supervised by Prof. **Lei Chang**
 - Inspired by the [paper](https://arxiv.org/abs/2211.06635), we are trying to calculate the various form factors of pion under the ladder approximation of the Bethe-Salpeter equation, with contact interactions. The work
 is supervised by Prof. Chang.
 
-## ttH+tH CP analysis on ATLAS.
+## $t\bar{t}H+tH$ $\mathcal{CP}$ analysis on ATLAS.
 **SLAC, Stanford University**  
 California, USA  
-would be supervised by Prof. **Caterina Vernieri**
-- We will train a neural network to separate ttH+tH signal from background processes and to separate events produced by CP-even and CP-odd process simultaneously.
+supervised by Prof. **Caterina Vernieri** and Dr. **Brendon Bullard**
+- We are training a neural network to separate $t\bar{t}H+tH$ signal from background processes and to separate events produced by $\mathcal{CP}$-even and $\mathcal{CP}$-odd process simultaneously.
