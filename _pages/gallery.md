@@ -27,7 +27,7 @@ button {
   <h3>At Nankai</h3>
   <div class="slides-container" id="nankai-slider">
     <img src="{{ site.baseurl }}/images/IMG_1443.jpeg" alt="Nankai Event Photo 1">
-    <img src="{{ site.baseurl }}/images/IMG_1254.jpeg" alt="Nankai Event Photo 2" style="display: none;">
+    <img src="{{ site.baseurl }}/images/IMG_1254.jpeg" alt="Nankai Event Photo 2">
     <!-- 更多图片 -->
   </div>
   <button onclick="previousImage('nankai-slider')">‹</button>
