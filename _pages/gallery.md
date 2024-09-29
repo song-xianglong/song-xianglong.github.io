@@ -6,68 +6,134 @@ author_profile: true
 ---
 
 <style>
-.event-slider {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.slideshow-container {
   position: relative;
-  width: 100%;
   max-width: 600px;
   margin: auto;
-  overflow: hidden;
 }
 
-.slides-container {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
+.mySlides {
+  display: none;
 }
 
-.slides-container img {
+img {
+  vertical-align: middle;
   width: 100%;
-  flex-shrink: 0;
-  max-width: 600px;
 }
 
-button {
+/* 控制按钮的样式 */
+.prev, .next {
+  cursor: pointer;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
   color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-button.prev {
-  left: 0;
-}
-
-button.next {
+.next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* 滑动动画 */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* 圆点指示器的样式 */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }
 </style>
 
-<div class="event-slider">
-  <h3>At Nankai</h3>
-  <div class="slides-container" id="nankai-slider">
+<div class="slideshow-container">
+
+  <!-- 图片1 -->
+  <div class="mySlides fade">
     <img src="../images/IMG_1443.jpeg" alt="Nankai Event Photo 1">
-    <img src="../images/IMG_1254.jpeg" alt="Nankai Event Photo 2" style="display: none;">
-    <!-- 更多图片 -->
   </div>
-  <button onclick="previousImage('nankai-slider')">‹</button>
-  <button onclick="nextImage('nankai-slider')">›</button>
+
+  <!-- 图片2 -->
+  <div class="mySlides fade">
+    <img src="../images/IMG_1254.jpeg" alt="Nankai Event Photo 2">
+  </div>
+
+  <!-- 左右控制按钮 -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<!-- 圆点指示器 -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
 </div>
 
 <script>
-let currentIndex = 0;
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function moveSlides(direction) {
-  const slider = document.getElementById('nankai-slider');
-  const slides = slider.getElementsByTagName('img');
-  const totalSlides = slides.length;
+// 下一张/上一张控制函数
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-  // 计算新的索引
-  currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+// 当前图片控制函数
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-  // 移动幻灯片容器
-  slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+// 显示图片函数
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
 }
 </script>
