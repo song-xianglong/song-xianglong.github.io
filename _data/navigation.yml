@@ -3,6 +3,9 @@ main:
   - title: "Experience"
     url: /experience/    
 
+  - title: "Gallery"
+    url: /gallery/    
+
   - title: "Badminton"
     url: /badminton/    
     
