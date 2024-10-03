@@ -14,7 +14,7 @@ Supervised by Prof. **Caterina Vernieri** and Dr. **Brendon Bullard**
 - Trained a neural network to separate $t\bar{t}H+tH$ signal from background processes and to separate events produced by $\mathcal{CP}$-even and $\mathcal{CP}$-odd process simultaneously.
 
 ## Quantum entanglement and Bell inequality violation in colliders.
-Sept. 2024 - Present, **Pittsburgh Particle Physics, Astrophysics, and Cosmology Center, University of Pittsburgh**  
+Sept. 2024 - Present, **PACC, University of Pittsburgh**  
 Remote  
 Supervised by Prof. **Tao Han**.
 - Used top quark’s semi-leptonic channel for probing quantum entanglement and Bell inequality violation.
