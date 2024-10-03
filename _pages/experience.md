@@ -32,6 +32,7 @@ Supervised by Prof. **Gwenael Giacinti**
 - Used Naima package to calculate LHAASO data and generated the photon spectrum from the Crab Nebula and analyzed the origin of these photons.
 - Fitted the photon spectrum with processes like synchrotron radiation, inverse Compton scattering and Pion decay.
 - Used exponential cutoff double broken power law to replace the unknown acceleration mechanism.
+- [Presentation slides](../assets/CrabPre.pdf).
 
 ## SoftDrop isolation on exploring QED splitting function.
 Jul. 2023 - Oct. 2023, **Sapienza Università di Roma**  
