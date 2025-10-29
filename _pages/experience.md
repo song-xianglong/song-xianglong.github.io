@@ -6,29 +6,31 @@ author_profile: true
 ---
 # <font color="#000080">On-going Research:</font>
 
-## $t\bar{t}H+tH$ $\mathcal{CP}$ analysis on ATLAS.
-Jul. 2024 - Present, **SLAC, Stanford University**  
-California, USA  
-Supervised by Prof. **Caterina Vernieri** and Dr. **Brendon Bullard**
-- Reconstructed top quark events with the identification of jet triplets by χ2 implementation, which served as a baseline.
-- Trained a deep neural network to distinguish reconstruction-level jets which are processed by truth matching with truth-level jets, and compared with the BDT(boosted decision trees) approach.
-- Training a neural network to separate $t\bar{t}H+tH$ signal from background processes and to separate events produced by $\mathcal{CP}$-even and $\mathcal{CP}$-odd process simultaneously.
-- Code avaliable on [GitHub](https://github.com/song-xianglong/ttHCP).
-
-## Quantum tomography with kinematic approach at colliders.
-Sept. 2024 - Present, **PACC, University of Pittsburgh**  
-Remote  
-Supervised by Prof. **Tao Han**.
-- Applied the “kinematic approach” and compared it with the traditional “decay approach” for reconstructing quantum density matrices at colliders.
-- Demonstrated that production kinematics alone can provide sufficient information for quantum tomography, eliminating the dependence on decaying particles, which showed its feasibility and significantly improved statistical precision.
-- Testing the approach on future colliders like CEPC.
-- Main reference: [Quantum Tomography at Colliders With or Without Decays](https://arxiv.org/abs/2410.08303).
+...
 
 ---
 ---
 
 
 # <font color="#000080">Previous Research Experience:</font>
+
+## Thesis: Searches for BSM physics at future colliders.
+Dec. 2024 - May. 2025, **Nankai University**  
+Tianjin, China  
+Supervised by Prof. Lorenzo Calibbi  
+- Wrote a UFO model file for Axion-Like Particle (ALP) interaction with the Standard Model and developed the theory part of the production and decay of ALP.
+- Generated signal and background events for CEPC simulation, studied the $e^+e^-\to Z\to a\gamma,\, a\to b\bar{b}$ decay mode with MadGraph and related software, which not only fully exploited the CEPC’s outstanding b-tagging performance but also represented the first dedicated study of this decay channel.
+- Set appropriate cuts on the observables to efficiently separate the signal and background events, and derived limitations on ALP parameter space which can be studied on CEPC.
+
+## $t\bar{t}H+tH$ $\mathcal{CP}$ analysis on ATLAS.
+Jul. 2024 - Jun. 2025, **SLAC, Stanford University**  
+California, USA  
+Supervised by Prof. **Caterina Vernieri** and Dr. **Brendon Bullard**
+- Reconstructed top quark events with the identification of jet triplets by χ2 implementation, which served as a baseline.
+- Trained a deep neural network to distinguish reconstruction-level jets which are processed by truth matching with truth-level jets, and compared with the BDT(boosted decision trees) approach.
+- Training a neural network to separate $t\bar{t}H+tH$ signal from background processes and to separate events produced by $\mathcal{CP}$-even and $\mathcal{CP}$-odd process simultaneously.
+- Code avaliable on [GitHub](https://github.com/song-xianglong/ttHCP).
+  
 ## From multi-wavelength data to electron distribution.
 Jan. 2024, **Tsung-Dao Lee Institute, Shanghai Jiao Tong University**  
 Shanghai, China  
